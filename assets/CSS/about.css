@@ -1,0 +1,431 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Header and Navbar */
+header {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(242, 241, 243, 0.996);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    /* box-shadow: 0px 5px 4px rgb(160, 158, 158); */
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    box-sizing: border-box;
+    z-index: 100;
+
+}
+
+div.logo {
+    width: 25%;
+}
+
+ul.navbar {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+ul.FAQ {
+    display: flex;
+    width: 12%;
+    justify-content: space-evenly;
+}
+
+ul.navbar>li>a,
+ul.FAQ>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+ul.navbar>li,
+ul.FAQ>li {
+    list-style: none;
+}
+
+.faq-ul {
+    padding-right: 11px;
+    border-right: 2px solid #049bd7;
+}
+
+/* Header and Nav Bar Completed 
+---------------------------
+Background Banner */
+div.banner {
+    background-image: url("/assets/Images/index.banner.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* Background Banner Completed */
+/* --------------------------------------- */
+/* About Us */
+div.about {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about-h1 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-h3 {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.about-content {
+    margin-top: 20px;
+    width: 100%;
+    text-align: justify;
+    padding: 0px 60px;
+    /* border: 2px solid black; */
+
+}
+
+h3.name {
+    border-bottom: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p.about-description {
+    margin-top: 60px;
+    box-sizing: border-box;
+    color: #464646;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+/* About Us Complted */
+/* -------------------------------- */
+
+/* More about */
+div.more-about {
+    margin-top: 40px;
+    background-image: url("/assets/Images/aboutus/aboutus.banner.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+
+div.more-about-fade {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+div.more-about-content {
+    position: absolute;
+    margin-top: 40px;
+    left: 40%;
+    text-align: center;
+}
+
+h1.more-about-h1 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h3.more-about-h3 {
+    color: white;
+    position: absolute;
+    margin-top: 120px;
+    left: 10%;
+}
+
+div.more-about-container {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* Section - 1  */
+div.more-about-section1 {
+    width: 50%;
+    font-size: 18px;
+}
+
+span.more-about-span {
+    width: 60px;
+    color: white;
+    font-size: 30px;
+    background-color: red;
+    height: 73px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+div.more-about-card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+div.more-about-card>p {
+    width: 75%;
+    line-height: 22px;
+    word-spacing: 2px;
+}
+
+/* section -2  */
+div.more-about-section2 {
+    width: 40%;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+    margin-top: 10px;
+    line-height: 22px;
+    word-spacing: 2px;
+}
+
+/* More About us Completed  */
+/* ------------------------------------- */
+/* Footer  */
+.footer {
+    /* margin-top: 70px; */
+    background-image: url('/assets/Images/footer.index.jpeg');
+    width: 100%;
+    height: 92vh;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+div.footer-head {
+    width: 32%;
+    position: absolute;
+    left: 35%;
+    top: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+button.footer-button {
+    margin-top: 10px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.866);
+    padding: 20px;
+    font-size: 15px;
+}
+
+div.footer-section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: 45%;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+div.footer-card1 {
+    width: 35%;
+    color: rgba(255, 255, 255, 0.915);
+    font-size: 16px;
+    /* word-spacing: 8px; */
+    margin-left: 40px;
+
+}
+
+div.footer-card2 {
+    width: 12%;
+    color: rgba(255, 255, 255, 0.915);
+    font-size: 16px;
+    word-spacing: 8px;
+}
+
+div.footer-card2>i {
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 600;
+
+
+}
+
+div.footer-card3 {
+    width: 25%;
+    color: rgba(255, 255, 255, 0.915);
+    font-size: 16px;
+    /* word-spacing: 6px; */
+    text-align: justify;
+}
+
+input.footer-input {
+    width: 400px;
+
+    padding: 5px;
+}
+
+button.footer-submit {
+    background-color: #444444;
+    border: none;
+    color: white;
+    padding: 8px 30px;
+    font-size: 20px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\  MEDIA QUERY \\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+@media screen and (max-width:600px) {
+
+
+
+    header {
+        width: 100%;
+        height: 120px;
+        background-color: rgba(242, 241, 243, 0.996);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        /* box-shadow: 0px 5px 4px rgb(160 158 158); */
+        box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+        box-sizing: border-box;
+        z-index: 100;
+    }
+
+    ul.navbar {
+        display: block;
+        width: 21%;
+        justify-content: space-around;
+        margin-right: 5%;
+        line-height: 23px;
+    }
+
+
+    ul.FAQ {
+        display: block;
+        width: 21%;
+        justify-content: space-around;
+    }
+
+    /* ---------------------------------
+    About US */
+    p.about-description {
+        margin-top: 30px;
+        box-sizing: border-box;
+        color: #464646;
+        font-family: 'Poppins', sans-serif;
+        word-spacing: 2px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /* -------------------------
+    More about us  */
+    div.more-about-section1 {
+        width: 50%;
+        font-size: 12px;
+    }
+
+    span.more-about-span {
+        width: 48px;
+        color: white;
+        font-size: 21px;
+        background-color: red;
+        height: 57px;
+        border-radius: 50%;
+        padding: 16px;
+    }
+
+    div.more-about-card>p {
+        width: 75%;
+        line-height: 11px;
+        word-spacing: 2px;
+    }
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+div.more-about-section2 {
+    width: 40%;
+    font-size: 12px;
+}
+/* --------------------------
+    Footer  */
+    
+    div.footer-head {
+        width: 32%;
+        position: absolute;
+        left: 35%;
+        top: 19px;
+        text-align: center;
+        font-size: 8px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+
+    button.footer-button {
+        margin-top: 10px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.866);
+        padding: 5px;
+        font-size: 9px;
+    }
+    div.footer-card1 {
+        width: 35%;
+        color: rgba(255, 255, 255, 0.914);
+        font-size: 8px;
+        margin-left: 40px;
+    }
+    div.footer-card2 {
+        width: 12%;
+        color: rgba(255, 255, 255, 0.915);
+        font-size: 8px;
+        word-spacing: 8px;
+    }
+    div.footer-card2>i {
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    input.footer-input {
+        width: 200px;
+        /* padding: 5px; */
+    }
+    button.footer-submit {
+        background-color: #444444;
+        border: none;
+        color: white;
+        padding: 0px 5px;
+        /* font-size: 20px; */
+    }
+
+
+}
